@@ -18,29 +18,17 @@ import java.util.Set;
 public class CarModel {
 
     private String id;
-
     private String make;
-
     private String model;
-
     private int year;
-
     private EngineType engineType;
-
     private GearBox gearBox;
-
     private Condition condition;
-
     private int horsePower;
-
     private String color;
-
     private BigDecimal price;
-
     private String city;
-
     private int mileage;
-
     private User user;
     private Set<Extra> extras;
 }
